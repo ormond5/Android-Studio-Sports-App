@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".WomensBBallActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="421dp"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:id="@+id/WBallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:paddingTop="10dp"
+        android:text="Women's Basketball"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/WlaxText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="552dp"
+        android:textColor="@color/colorBlack"
+        android:text="Upcoming Matches"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="459dp">
+
+
+        <TextView
+            android:text="Date              Time        Place             Opponent"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="06/03               2pm          Essex               Durham"
+            android:textColor="@color/colorBlack"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:text="13/03               2pm          Essex             Loughborough"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="normal" />
+
+
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/RcntMatches"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="406dp"
+        android:text="Recent Matches"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="397dp"
+        android:layout_height="99dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="310dp">
+
+
+        <TextView
+            android:text="Date          Opponent          Score         Result"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="27/02           Loughborough       79-71             Win"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="normal" />
+
+        <TextView
+            android:text="20/02               Durham              75-95             Loss"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:text="06/02            East London         63-81             Loss"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="normal" />
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="195dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="244dp"
+        android:text="Standings"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="113dp">
+
+        <TextView
+            android:layout_width="440dp"
+            android:layout_height="wrap_content"
+
+            android:text=" 1. Essex 1st\n 2. Hertfordshire 1st\n 3. East London\n 4. Cardiff Met 1st\n 5. London South Bank 1st\n 6. Oxford 1st"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
