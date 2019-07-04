@@ -9,5 +9,4 @@ This course was done during my Masters in Computer and Network Security at the U
 
 ![alt text](https://github.com/ormond5/Android-Studio-Sports-App/blob/master/Main/Layouts/Design/activity_main.PNG) 
 
-![alt text](https://github.com/ormond5/Android-Studio-Sports-App/blob/master/Main/Layouts/Design/Sports%20Activity_template.PNG)
 
